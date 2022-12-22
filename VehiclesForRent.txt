@@ -1,0 +1,12 @@
+Feature:  Verify in Vehicles for rent and cars suv trucks and vans for AWD & 4x4 Cars 4-8 people 3-7 Bags
+
+Scenario:  Page should display "Looking for a rental car that offers more road capability?
+Given user navigates to url "https://www.enterprise.com/en/home.html"
+Then user verifies the url 
+Then user verifies if "Health" drop down is displayed
+And user clicks on "Health" and selects "Locations"
+Then user verifies text is displayed "Locations"
+Then user verifies if "Clinic Locator" is displayed
+And user clicks on "Clinic Locator"
+Then user enters a valid zip code "22312" in the field Enter a ZIP code or city & statefield
+And user verifies "5 Clinic(s) found near "22312" "
